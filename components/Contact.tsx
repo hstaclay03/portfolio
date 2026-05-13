@@ -36,9 +36,9 @@ export default function Contact() {
               <div>
                 <p className="mb-1 text-sm font-medium text-text/60">Socials</p>
                 <div className="flex gap-4">
-                  <a href="#" className="text-white/80 transition-colors hover:text-pink">Facebook</a>
+                  <a href="https://www.facebook.com/nens.taclay" className="text-white/80 transition-colors hover:text-pink">Facebook</a>
                   <a href="#" className="text-white/80 transition-colors hover:text-purple">LinkedIn</a>
-                  <a href="#" className="text-white/80 transition-colors hover:text-[#5CE1E6]">GitHub</a>
+                  <a href="https://github.com/hstaclay03" className="text-white/80 transition-colors hover:text-[#5CE1E6]">GitHub</a>
                 </div>
               </div>
             </div>
