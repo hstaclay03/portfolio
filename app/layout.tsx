@@ -32,14 +32,14 @@ const siteUrl =
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Hanin Taclay — Full-Stack Developer",
+  title: "Hanin Taclay — Quality-Assurance Tester",
   description:
-    "Frontend developer crafting performant, accessible, and visually stunning web experiences with React, Next.js, and modern web technologies.",
+    "I find the bugs others miss, track them through Jira, and make sure every release ships clean and stable. Detail-obsessed and comfortable across manual and automated testing.",
   keywords:
     "frontend developer, React, Next.js, TypeScript, portfolio, Hanin Taclay, web developer",
   authors: [{ name: "Hanin Taclay" }],
   openGraph: {
-    title: "Hanin Taclay — Full-Stack Developer",
+    title: "Hanin Taclay — Quality-Assurance Te",
     description:
       "Frontend developer crafting performant, accessible, and visually stunning web experiences.",
     url: siteUrl,
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hanin Taclay — Full-Stack Developer",
+    title: "Hanin Taclay — Quality-Assurance Teste",
     description:
       "Frontend developer crafting performant, accessible, and visually stunning web experiences.",
   },
