@@ -1,26 +1,18 @@
 import type { Metadata } from "next";
-import { Libre_Franklin, Montserrat, Inter } from "next/font/google";
+import { DM_Sans, Lora } from "next/font/google";
 import "./globals.css";
 
-/* Display font for the name — closest Google Fonts match to Franklin Gothic */
-const libreFranklin = Libre_Franklin({
+const displayFont = Lora({
   variable: "--font-display",
   subsets: ["latin"],
-  weight: ["700", "800", "900"],
+  weight: "700",
+  style: ["normal", "italic"],
   display: "swap",
 });
 
-const montserrat = Montserrat({
-  variable: "--font-montserrat",
+const bodyFont = DM_Sans({
+  variable: "--font-body",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-  display: "swap",
-});
-
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
   display: "swap",
 });
 
@@ -59,7 +51,7 @@ export const metadata: Metadata = {
 export const viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#0F0F1A",
+  themeColor: "#efe5d6",
 };
 
 export default function RootLayout({
@@ -68,7 +60,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${libreFranklin.variable} ${montserrat.variable} ${inter.variable} antialiased`}
+        className={`${displayFont.variable} ${bodyFont.variable} antialiased`}
       >
         {children}
       </body>

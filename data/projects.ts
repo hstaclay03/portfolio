@@ -21,4 +21,14 @@ export const projects: Project[] = [
     demo: "#",
     image: "/patm.jpg",
   },
+  {
+    title: "Commune Café",
+    desc: "Visit the Commune Café website.",
+    longDesc: "Explore Commune Café online at commune-cafe.com using the website link below.",
+    tags: ["Website"],
+    color: "",
+    github: "#",
+    demo: "https://commune-cafe.com",
+    image: "/commune-cafe.png",
+  },
 ];
